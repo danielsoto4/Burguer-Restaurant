@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burguer Julians</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand">
+        <img src="assets/images/logo.png" alt="BurguerLogo" class="navbar-logo">
+        <span class="navbar-text">Burguer<br> </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#my-images-section"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#section2"><i class="fas fa-utensils"></i> Menu</a>
+          </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=><i class="fas fa-map-location"></i> Ubicación</a>
+            </li>
+        </ul>
+        <a class="btn btn-primary contact-button ml-lg-3" href="#contact"><i class="fas fa-phone"></i> Contact</a>
+    </div>
+  </nav>
+
+  <section class="my-images-section section no-animation" >
+    <div class="parent">
+      <div class="div1">
+        <img src="assets/images/1.png" alt="Image 1" class="img-right animate__animated animate__flipInY">
+      </div>
+      <div class="div2">
+        <h2 class="text-right1 animate__animated animate__backInRight">Hamburguesas Irresistibles <br>Ven a disfrutar</h2>
+      </div>
+      <div class="div3">
+        <p class="p1 animate__animated animate__backInLeft">Descubre las mejores hamburguesas en nuestro restaurante con años de experiencia y una excelente reputación. Disfruta de nuestros menús deliciosos en un ambiente cálido y acogedor.</p>
+      </div>
+    </div>
+  </section>
+
+  <button onclick="scrollToTop()" id="scrollToTopBtn" title="Ir arriba">⬆</button>
+
+
+  <section id="section2" class="section2">
+    <h1 class="menu">Menús</h1>
+    <div class="cards">
+
+    <!-- Card 1: Entrantes -->
+    <div class="card" id="card-entrantes">
+        <div class="card-content">
+          <div class="card-image">
+            <h2>Entrantes</h2>
+            <img src="assets/images/entrantes.jpg" alt="Entrantes">
+          </div>
+          <div class="dish-section">
+            <!-- Columna Izquierda -->
+            <div class="dish-column">
+              <!-- Patatas Fritas -->
+              <div class="dish-item">
+                <div class="dish-text">
+                  <h4>Patatas Fritas</h4>
+                  <ul>
+                    <li>Media Ración | Entera
+                      <ul>
+                        <li>Solas 4,50€ | 6,00€</li>
+                        <li>1 Salsa 5,25€ | 6,75€</li>
+                        <li>2 Salsas 6,00€ | 7,50€</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/Entrantes/patatas.png" alt="Patatas Fritas" class="dish-img">
+              </div>
+  
+              <!-- Nuggets de Pollo -->
+              <div class="dish-item">
+                <div class="dish-text">
+                  <h4>Nuggets de Pollo</h4>
+                  <ul>
+                    <li>Media Ración | Entera
+                      <ul>
+                        <li>6und 3,75€ | 12und 7,50€</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/Entrantes/nuggets.png" alt="Nuggets de Pollo" class="dish-img">
+              </div>
+  
+              <!-- Fingers de Pollo -->
+              <div class="dish-item">
+                <div class="dish-text">
+                  <h4>Fingers de Pollo</h4>
+                  <ul>
+                    <li>Media Ración | Entera
+                      <ul>
+                        <li>6und 6,50€ | 12und 13,00€</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/Entrantes/fingers.png" alt="Fingers de Pollo" class="dish-img">
+              </div>
+  
+              <!-- Alitas de Pollo -->
+              <div class="dish-item">
+                <div class="dish-text">
+                  <h4>Alitas de Pollo</h4>
+                  <ul>
+                    <li>Media Ración | Entera
+                      <ul>
+                        <li>6und 5,00€ | 12und 10,00€</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/Entrantes/alitas.png" alt="Alitas de Pollo" class="dish-img">
+              </div>
+            </div>
+  
+            <!-- Columna Derecha -->
+            <div class="dish-column">
+              <!-- Aros de Cebolla -->
+              <div class="dish-item">
+                <div class="dish-text">
+                  <h4>Aros de Cebolla</h4>
+                  <ul>
+                    <li>Media Ración | Entera
+                      <ul>
+                        <li>6und 2,75€ | 12und 5,50€</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/Entrantes/cebolla.png" alt="Aros de Cebolla" class="dish-img">
+              </div>
+  
+              <!-- Fingers de Mozzarella -->
+              <div class="dish-item">
+                <div class="dish-text">
+                  <h4>Fingers de Mozzarella</h4>
+                  <ul>
+                    <li>Media Ración | Entera
+                      <ul>
+                        <li>6und 4,00€ | 12und 8,00€</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/Entrantes/mozzarella.png" alt="Fingers de Mozzarella" class="dish-img">
+              </div>
+  
+              <!-- Cheese Rings -->
+              <div class="dish-item">
+                <div class="dish-text">
+                  <h4>Cheese Rings</h4>
+                  <ul>
+                    <li>Media Ración | Entera
+                      <ul>
+                        <li>6und 6,00€ | 12und 12,00€</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/Entrantes/cheese.png" alt="Cheese Rings" class="dish-img">
+              </div>
+  
+              <!-- Croquetas Jamón Ibérico -->
+              <div class="dish-item">
+                <div class="dish-text">
+                  <h4>Croquetas Jamón Ibérico o Boletus</h4>
+                  <ul>
+                    <li>Media Ración | Entera
+                      <ul>
+                        <li>6und 6,00€ | 12und 12,00€</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <img src="assets/images/Entrantes/croquetas.png" alt="Croquetas Jamón Ibérico" class="dish-img">
+              </div>
+              <div class="dish-item">
+                <div class="dish-text2">
+                  <ul>
+                    <li><span class="dish-name1">La salsa de las patatas va servida encima de ellas.</span></li>
+                    <li><span class="dish-name1">Salsas:</span> Queso - Rosa - Alioli - Mayonesa - Ajillo - Brava - Barbacoa - Kétchup</li>
+                    <li><span class="dish-name1">Cuenco extra salsa:</span> 0,75€</li>
+                    <li><span class="dish-name1">Patatas celiaco:</span> 1,00€</li>
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <!-- Card 2: Ensaladas -->
+    <div class="card" id="card-ensaladas">
+      <div class="card-content">
+        <div class="card-image">
+          <h2>Ensaladas</h2>
+          <img src="assets/images/ensaladas.jpg" alt="Ensaladas">
+        </div>
+        <div class="dish-section">
+          <!-- Columna Izquierda -->
+          <div class="dish-column">
+            <!-- Ensalada de Pollo -->
+            <div class="dish-item">
+              <div class="dish-text">
+                <h4>Ensalada de Pollo</h4>
+                <p>Pollo empanado troceado, lechuga, tacos de queso y jamón de york, salsa rosa o de queso.</p>
+                <p>9,00€</p>
+              </div>
+              <img src="assets/images/Ensaladas/pollo.png" alt="Ensalada de Pollo" class="dish-img">
+            </div>
+    
+            <!-- Ensalada de Cangrejo -->
+            <div class="dish-item">
+              <div class="dish-text">
+                <h4>Ensalada de Cangrejo</h4>
+                <p>Palitos de cangrejo, lechuga, maíz, zanahoria, huevo cocido, piña y salsa rosa.</p>
+                <p>9,00€</p>
+              </div>
+              <img src="assets/images/Ensaladas/cangrejo.png" alt="Ensalada de Cangrejo" class="dish-img">
+            </div>
+    
+            <!-- Ensalada de Pasta -->
+            <div class="dish-item">
+              <div class="dish-text">
+                <h4>Ensalada de Pasta</h4>
+                <p>Pasta macarrón, tomate, maíz, atún, huevo cocido, aceitunas negras, zanahoria, aceite y vinagre.</p>
+                <p>9,00€</p>
+              </div>
+              <img src="assets/images/Ensaladas/pasta.png" alt="Ensalada de Pasta" class="dish-img">
+            </div>
+    
+            <!-- Ensalada de Pasta con Pollo -->
+            <div class="dish-item">
+              <div class="dish-text">
+                <h4>Ensalada de Pasta con Pollo</h4>
+                <p>Pasta macarrón, pollo empanado troceado, tomate, maíz, atún, huevo cocido, aceitunas negras, tiras zanahoria, aceite y vinagre.</p>
+                <p>11,00€</p>
+              </div>
+              <img src="assets/images/Ensaladas/pastapollo.png" alt="Ensalada de Pasta con Pollo" class="dish-img">
+            </div>
+          </div>
+    
+          <!-- Columna Derecha -->
+          <div class="dish-column">
+            <!-- Ensalada de Arroz -->
+            <div class="dish-item">
+              <div class="dish-text">
+                <h4>Ensalada de Arroz</h4>
+                <p>Arroz, tomate, maíz, atún, huevo cocido, aceitunas negras, tiras zanahoria, aceite y vinagre.</p>
+                <p>8,50€</p>
+              </div>
+              <img src="assets/images/Ensaladas/arroz.png" alt="Ensalada de Arroz" class="dish-img">
+            </div>
+    
+            <!-- Ensalada de Arroz con Pollo plancha -->
+            <div class="dish-item">
+              <div class="dish-text">
+                <h4>Ensalada de Arroz con Pollo plancha</h4>
+                <p>Arroz, pollo plancha troceado, tomate, maíz, atún, huevo cocido, aceitunas negras, tiras zanahoria, aceite y vinagre.</p>
+                <p>11,00€</p>
+              </div>
+              <img src="assets/images/Ensaladas/pastapollo.png" alt="Ensalada de Arroz con Pollo plancha" class="dish-img">
+            </div>
+    
+            <!-- Ensalada Española -->
+            <div class="dish-item">
+              <div class="dish-text">
+                <h4>Ensalada Española</h4>
+                <p>Lechuga, tomate, cebolla, atún, huevo cocido, espárragos, aceitunas verdes, aceite y vinagre.</p>
+                <p>8,50€</p>
+              </div>
+              <img src="assets/images/Ensaladas/española.png" alt="Ensalada Española" class="dish-img">
+            </div>
+    
+            <!-- Ensalada de Queso Fresco -->
+            <div class="dish-item">
+              <div class="dish-text">
+                <h4>Ensalada de Queso Fresco</h4>
+                <p>Lechuga, tomate, queso de burgos, aceitunas negras, picatostes de trigo, aceite y vinagre.</p>
+                <p>8,50€</p>
+              </div>
+              <img src="assets/images/Ensaladas/queso.png" alt="Ensalada de Queso Fresco" class="dish-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: Sándwiches -->
+    <div class="card" id="card-sandwiches">
+  <div class="card-content">
+    <div class="card-image">
+      <h2>Sándwiches</h2>
+      <img src="assets/images/sandwich.jpg" alt="Sándwiches">
+    </div>
+    <div class="dish-section">
+      <!-- Columna Izquierda -->
+      <div class="dish-column">
+        <!-- Sándwiches Mixtos -->
+        <div class="dish-item">
+          <div class="dish-text2">
+            <h4>Mixto</h4>
+            <ul>
+              <li>De jamón york y queso | 4,75€</li>
+              <li>Mixto con Huevo | 5,25€</li>
+              <li><span class="dish-name">Jumbo:</span> Mixto pan hamburguesa | 5,00€</li>
+              <li><span class="dish-name">Alemán</span> | 5,50€</li>
+              <li>Mixto Doble | 6,50€</li>
+              <li>Mixto Doble con Huevo | 7,00€</li>
+              <li>Mixto Doble con Bacon y Huevo | 8,25€</li>
+            </ul>
+          </div>
+          <img src="assets/images/sandwich/mixto.png" alt="Sándwich Mixto" class="dish-img">
+        </div>
+
+        <!-- Sándwiches de Lomo -->
+        <div class="dish-item">
+          <div class="dish-text2">
+            <h4>Sándwiches de Lomo</h4>
+            <ul>
+              <li>Lomo Queso Tomate Natural | 6,75€</li>
+              <li><span class="dish-name">Nano:</span> Jamón, queso, lomo adobado, tomate natural, mayonesa | 7,50€</li>
+              <li><span class="dish-name">Lorenzo:</span> Jamón, queso, huevo plancha, lomo adobado | 7,75€</li>
+              <li><span class="dish-name">Lorian:</span> Jamón, queso, huevo plancha, lomo adobado, bacon | 8,75€</li>
+            </ul>
+          </div>
+          <img src="assets/images/sandwich/nano.png" alt="Sándwich Nano" class="dish-img">
+        </div>
+
+        <!-- Sándwiches Especiales -->
+        <div class="dish-item">
+          <div class="dish-text2">
+            <h4>Sándwiches Especiales</h4>
+            <ul>
+              <li><span class="dish-name">Perrito:</span> Con queso cheddar y cebolla crujiente | 4,75€</li>
+              <li><span class="dish-name">Sonia:</span> Jamón, queso, huevo plancha, atún, tomate, mayonesa | 7,50€</li>
+            </ul>
+          </div>
+          <img src="assets/images/sandwich/perrito.png" alt="Sándwich Noruego" class="dish-img">
+        </div>
+
+        <div class="dish-item">
+          <div class="dish-text2">
+            <ul>
+              <li><span class="dish-name">Marian:</span> Jamón, queso, huevo plancha, bacon | 7,50€</li>
+              <li><span class="dish-name">Noruego:</span> Salmón ahumado, lechuga, tomate, crema de queso | 10,75€</li>
+            </ul>
+          </div>
+          <img src="assets/images/sandwich/noruego.png" alt="Sándwich Noruego" class="dish-img">
+        </div>
+      </div>
+
+      <!-- Columna Derecha -->
+      <div class="dish-column">
+        <!-- Sándwiches Vegetales -->
+        <div class="dish-item">
+          <div class="dish-text2">
+            <h4>Sándwiches Vegetales</h4>
+            <ul>
+              <li><span class="dish-name">Vegetal:</span> Lechuga, tomate, cebolla, huevo duro, espárragos, mayonesa | 7,00€</li>
+              <li><span class="dish-name">Fonchy:</span> Lechuga, tomate, cebolla, huevo, jamón, queso, mayonesa | 7,50€</li>
+            </ul>
+          </div>
+          <img src="assets/images/sandwich/vegetal.png" alt="Sándwich Vegetal" class="dish-img">
+        </div>
+
+        <div class="dish-item">
+          <div class="dish-text2">
+            <ul>
+              <li><span class="dish-name">Maxivegetal:</span> Lechuga, tomate natural, cebolla, huevo duro, espárragos, atún, mayonesa | 8,25€</li>
+              <li><span class="dish-name">Julian's:</span> Lechuga, tomate, cebolla, huevo, jamón, queso, bacon, mayonesa | 8,00€</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="dish-item">
+          <div class="dish-text2">
+            <ul>
+              <li><span class="dish-name">MaxiJulian's:</span> Lechuga, tomate, cebolla, huevo plancha, jamón york, queso, bacon, atún, mayonesa | 9,00€</li>
+              <li><span class="dish-name">Susan:</span> Lechuga, tomate, cebolla, huevo plancha, jamón york, queso, lomo adobado, mayonesa | 9,00€</li>
+            </ul>
+          </div>
+          <img src="assets/images/sandwich/fonchy.png" alt="Sándwich Vegetal" class="dish-img">
+        </div>
+
+        <div class="dish-item">
+          <div class="dish-text2">
+            <ul>
+              <li><span class="dish-name">MaxiSusan:</span> Lechuga, tomate, cebolla, huevo plancha, jamón york, queso, lomo adobado, atún, mayonesa | 9,75€</li>
+              <li><span class="dish-name">Senador:</span> Lechuga, tomate, cebolla, huevo plancha, jamón york, queso, lomo adobado, bacon, mayonesa | 10,75€</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Sándwiches de Pollo -->
+        <div class="dish-item">
+          <div class="dish-text2">
+            <h4>Sándwiches de Pollo</h4>
+            <ul>
+              <li><span class="dish-name">Angelina:</span> Pollo plancha, lechuga, tomate natural, mayonesa | 8,25€</li>
+              <li><span class="dish-name">Riana:</span> Pollo empanado, lechuga, tomate, cebolla, mayonesa | 8,25€</li>
+            </ul>
+          </div>
+          <img src="assets/images/sandwich/emily.png" alt="Sándwich Emily" class="dish-img">
+        </div>
+        <div class="dish-item">
+          <div class="dish-text2">
+            <ul>
+              <li><span class="dish-name">Sakira:</span> Pollo empanado, lechuga, tomate, cebolla, queso, mayonesa | 8,75€</li>
+              <li><span class="dish-name">Emily:</span> Pollo empanado, lechuga, tomate natural, cebolla, huevo plancha, jamón york, queso, bacon, mayonesa | 10,75€</li>
+              <li><span class="dish-name">Marian:</span> Pollo plancha, lechuga, tomate natural, jamón york, queso, huevo plancha, bacon, mayonesa | 10,75€</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  
+    <!-- Card 4: Hamburguesas -->
+    <div class="card" id="card-hamburguesas">
+        <div class="card-content">
+          <div class="card-image">
+            <h2>Hamburguesas</h2>
+            <img src="assets/images/burger1.jpg" alt="Hamburguesas">
+          </div>
+          <div class="dish-section">
+            <!-- Columna Izquierda -->
+            <div class="dish-column">
+              <!-- Hamburguesas de Ternera -->
+              <div class="dish-item">
+                <div class="dish-text2">
+                  <h4>Hamburguesas de Ternera 100% 165gr</h4>
+                  <ul>
+                    <li><span class="dish-name">Mini:</span> solo carne | 5,75€</li>
+                    <li><span class="dish-name">Ani:</span> carne y queso | 6,75€</li>
+                    <li><span class="dish-name">Henry:</span> carne, queso, jamón york, huevo plancha | 7,75€</li>
+                    <li><span class="dish-name">Tania:</span> carne, queso, jamón york, huevo plancha, bacon | 8,75€</li>
+                  </ul>
+                </div>
+                <img src="assets/images/hamburguesas/henry.png" alt="Hamburguesa Henry" class="dish-img">
+              </div>
+
+              <div class="dish-item">
+                <div class="dish-text2">
+                  <ul>
+                    <li><span class="dish-name">Jony:</span> carne, lechuga, tomate, cebolla, bacon | 8,25€</li>
+                    <li><span class="dish-name">Diana:</span> carne, lechuga, tomate, cebolla, bacon, queso | 8,75€</li>
+                    <li><span class="dish-name">Súper:</span> carne, lechuga, tomate, cebolla, bacon, queso, jamón, huevo | 9,75€</li>
+                  </ul>
+                </div>
+                <img src="assets/images/hamburguesas/super.png" alt="Hamburguesa Henry" class="dish-img">
+              </div>
+      
+              <div class="dish-item">
+                <div class="dish-text2">
+                  <ul>
+                    <li><span class="dish-name">Pequeña:</span> carne, lechuga, tomate natural, cebolla | 6,75€</li>
+                    <li><span class="dish-name">Mediana:</span> carne, lechuga, tomate natural, cebolla, queso | 7,25€</li>
+                    <li><span class="dish-name">Grande:</span> carne, lechuga, tomate, cebolla, queso, jamón york, huevo | 8,50€</li>
+                  </ul>
+                </div>
+                <img src="assets/images/hamburguesas/pequeña.png" alt="Hamburguesa Pequeña" class="dish-img">
+              </div>
+      
+              <div class="dish-item">
+                <div class="dish-text2">
+                  <ul>
+                    <li><span class="dish-name">Kevin:</span> carne, queso, bacon | 7,75€</li>
+                    <li><span class="dish-name">Furius:</span> carne 275gr, lechuga, tomate, cebolla, bacon, queso, huevo | 12,00€</li>
+                  </ul>
+                </div>
+                <img src="assets/images/hamburguesas/kevindoble.png" alt="Hamburguesa Kevin Doble" class="dish-img">
+              </div>
+            </div>
+      
+            <!-- Columna Derecha -->
+            <div class="dish-column">
+              <!-- Hamburguesas de Pollo -->
+              <div class="dish-item">
+                <div class="dish-text2">
+                  <h4>Hamburguesas de Pollo</h4>
+                  <ul>
+                    <li><span class="dish-name">Judit:</span> pollo, mayonesa | 7,00€</li>
+                    <li><span class="dish-name">Sara:</span> pollo, queso, mayonesa | 7,75€</li>
+                    <li><span class="dish-name">Dalton:</span> pollo, queso, bacon, mayonesa | 8,50€</li>
+                    <li><span class="dish-name">Kike:</span> pollo, queso, jamón york, huevo plancha, mayonesa | 8,75€</li>
+                    <li><span class="dish-name">Dany:</span> pollo, queso, jamón york, huevo plancha, bacon, mayonesa | 9,75€</li>
+                    <li><span class="dish-name">Sharon:</span> pollo, lechuga, tomate, mayonesa | 8,00€</li>
+                  </ul>
+                </div>
+                <img src="assets/images/hamburguesas/arnold.png" alt="Hamburguesa Arnold" class="dish-img">
+              </div>
+
+              <div class="dish-item">
+                <div class="dish-text2">
+                  <ul>
+                    <li><span class="dish-name">Eddy:</span> pollo, lechuga, tomate, queso, mayonesa | 8,50€</li>
+                    <li><span class="dish-name">Katy:</span> pollo, lechuga, tomate, queso, jamón york, huevo, mayonesa | 9,75€</li>
+                    <li><span class="dish-name">Jennifer:</span> pollo, lechuga, tomate, bacon, mayonesa | 9,00€</li>
+                    <li><span class="dish-name">Vicky:</span> pollo, lechuga, tomate, queso, bacon, mayonesa | 9,50€</li>
+                    <li><span class="dish-name">Arnold:</span> pollo, lechuga, tomate, queso, jamón york, huevo, bacon, mayonesa | 10,75€</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="dish-item">
+                <div class="dish-text2">
+                  <h4>Hamburguesa Vegana</h4>
+                  <ul>
+                    <li><span class="dish-name">Vegana:</span> carne vegana, lechuga, tomate natural, cebolla, queso | 8,00€</li>       
+                  </ul>
+                </div>
+              </div>
+
+
+              <div class="dish-item">
+                <div class="dish-text2">
+                  <ul>
+                    <li><span class="dish-name1">Extra carne hamburguesa 165gr:</span> 3,25€</li>
+                    <li><span class="dish-name1">Extra carne hamburguesa 275gr:</span> 4,95€</li>
+                    <li><span class="dish-name1">Extra carne vegana:</span> 3,00€</li>
+                    <li><span class="dish-name1">Extra pepinillo:</span> 0,75€</li>
+                    <li><span class="dish-name1">Suplemento salsa (mayonesa, rosa, alioli):</span> 0,30€</li>
+                    <li><span class="dish-name1">Salsa hamburguesas (ketchup y mostaza)</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+    </div>
+
+    <!-- Card 5: Platos Combinados -->
+    <div class="card" id="card-platos-combinados">
+        <div class="card-content">
+            <div class="card-image">
+                <h2>Platos Combinados</h2>
+                <img src="assets/images/platos.jpeg" alt="Platos Combinados">
+            </div>
+            <div class="dish-section">
+                <!-- Columna Izquierda -->
+                <div class="dish-column">
+                    <!-- Entrecot de Ternera -->
+                    <div class="dish-item">
+                        <div class="dish-text2">
+                            <h4>Entrecot de Ternera</h4>
+                            <ul>
+                                <li><span class="dish-name">Nº 21:</span> Entrecot de ternera, huevos, patatas | 18,50€</li>
+                            </ul>
+                        </div>
+                        <img src="assets/images/platos/entrecot.png" alt="Entrecot de Ternera" class="dish-img">
+                    </div>
+      
+                    <!-- Escalope de Ternera -->
+                    <div class="dish-item">
+                        <div class="dish-text2">
+                            <h4>Escalope de Ternera</h4>
+                            <ul>
+                                <li><span class="dish-name">Nº 22:</span> Escalope de ternera, huevos, patatas | 9,75€</li>
+                            </ul>
+                        </div>
+                        <img src="assets/images/platos/escalope.png" alt="Escalope de Ternera" class="dish-img">
+                    </div>
+      
+                    <!-- Bistec de Ternera -->
+                    <div class="dish-item">
+                        <div class="dish-text2">
+                            <h4>Bistec de Ternera</h4>
+                            <ul>
+                                <li><span class="dish-name">Nº 23:</span> Bistec de ternera, huevos, patatas | 9,75€</li>
+                            </ul>
+                        </div>
+                        <img src="assets/images/platos/bistec.png" alt="Bistec de Ternera" class="dish-img">
+                    </div>
+      
+                    <!-- Escalope de Pollo -->
+                    <div class="dish-item">
+                        <div class="dish-text2">
+                            <h4>Escalope de Pollo</h4>
+                            <ul>
+                                <li><span class="dish-name">Nº 24:</span> Escalope de pollo, huevos, patatas | 9,75€</li>
+                            </ul>
+                        </div>
+                        <img src="assets/images/platos/espollo.png" alt="Escalope de Pollo" class="dish-img">
+                    </div>
+                </div>
+      
+                <!-- Columna Derecha -->
+                <div class="dish-column">
+                    <!-- 2 Filetes Hamburguesa -->
+                    <div class="dish-item">
+                        <div class="dish-text2">
+                            <h4>2 Filetes Hamburguesa</h4>
+                            <ul>
+                                <li><span class="dish-name">Nº 25:</span> 2 filetes hamburguesa, huevos, patatas | 10,75€</li>
+                            </ul>
+                        </div>
+                        <img src="assets/images/platos/hamburguesa.png" alt="2 Filetes Hamburguesa" class="dish-img">
+                    </div>
+      
+                    <!-- Lomo, Salchichas -->
+                    <div class="dish-item">
+                        <div class="dish-text2">
+                            <h4>Lomo, Salchichas</h4>
+                            <ul>
+                                <li><span class="dish-name">Nº 26:</span> Lomo, salchichas, huevos, patatas | 9,75€</li>
+                            </ul>
+                        </div>
+                        <img src="assets/images/platos/lomo.png" alt="Lomo, Salchichas" class="dish-img">
+                    </div>
+      
+                    <!-- Bacon, Salchichas -->
+                    <div class="dish-item">
+                        <div class="dish-text2">
+                            <h4>Bacon, Salchichas</h4>
+                            <ul>
+                                <li><span class="dish-name">Nº 27:</span> Bacon, salchichas, huevos, patatas | 9,75€</li>
+                            </ul>
+                        </div>
+                        <img src="assets/images/platos/bacon.png" alt="Bacon, Salchichas" class="dish-img">
+                    </div>
+      
+                    <!-- 2 Chorizos Caseros -->
+                    <div class="dish-item">
+                        <div class="dish-text2">
+                            <h4>2 Chorizos Caseros</h4>
+                            <ul>
+                                <li><span class="dish-name">Nº 28:</span> 2 chorizos caseros, huevos, patatas | 8,50€</li>
+                            </ul>
+                        </div>
+                        <img src="assets/images/platos/chorizo.png" alt="2 Chorizos Caseros" class="dish-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 6: Menú Infantil -->
+    <div class="card" id="card-menu-infantil">
+    <div class="card-content">
+        <div class="card-image">
+            <h2>Menú Infantil</h2>
+            <img src="assets/images/infantil.jpg" alt="Menú Infantil">
+        </div>
+        <div class="dish-section">
+            <!-- Columna Izquierda -->
+            <div class="dish-column">
+                <!-- Spaghetti con Albóndigas -->
+                <div class="dish-item">
+                    <div class="dish-text2">
+                        <h4>Spaghetti con Albóndigas</h4>
+                        <ul>
+                            <li><span class="dish-name">Nº 9:</span> Spaghetti con albóndigas y tomate | 8,75€</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/menu-infantil/albondigas.png" alt="Spaghetti con Albóndigas" class="dish-img">
+                </div>
+
+                <!-- Filete Pollo Empanado -->
+                <div class="dish-item">
+                    <div class="dish-text2">
+                        <h4>Filete Pollo Empanado</h4>
+                        <ul>
+                            <li><span class="dish-name">Nº 10:</span> Filete pollo empanado con patatas | 8,75€</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/menu-infantil/pollo.png" alt="Filete Pollo Empanado" class="dish-img">
+                </div>
+
+                <!-- Filete Hamburguesa -->
+                <div class="dish-item">
+                    <div class="dish-text2">
+                        <h4>Filete Hamburguesa</h4>
+                        <ul>
+                            <li><span class="dish-name">Nº 11:</span> Filete hamburguesa con patatas | 7,00€</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/menu-infantil/hamburguesa.png" alt="Filete Hamburguesa" class="dish-img">
+                </div>
+
+                <!-- Lomo Adobado -->
+                <div class="dish-item">
+                    <div class="dish-text2">
+                        <h4>Lomo Adobado</h4>
+                        <ul>
+                            <li><span class="dish-name">Nº 12:</span> Lomo adobado con patatas | 7,00€</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/menu-infantil/lomo.png" alt="Lomo Adobado" class="dish-img">
+                </div>
+
+                <!-- Salchichas Frankfurt -->
+                <div class="dish-item">
+                    <div class="dish-text2">
+                        <h4>Salchichas Frankfurt</h4>
+                        <ul>
+                            <li><span class="dish-name">Nº 13:</span> Salchichas Frankfurt con patatas | 7,00€</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/menu-infantil/salchichas.png" alt="Salchichas Frankfurt" class="dish-img">
+                </div>
+            </div>
+
+            <!-- Columna Derecha -->
+            <div class="dish-column">
+                <!-- Francesa -->
+                <div class="dish-item">
+                    <div class="dish-text2">
+                        <h4>Francesa</h4>
+                        <ul>
+                            <li><span class="dish-name">Nº 14:</span> Francesa con patatas | 6,50€</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/menu-infantil/tortilla.png" alt="Francesa" class="dish-img">
+                </div>
+
+                <!-- Huevos con Patatas -->
+                <div class="dish-item">
+                    <div class="dish-text2">
+                        <h4>Huevos con Patatas</h4>
+                        <ul>
+                            <li><span class="dish-name">Nº 15:</span> Huevos con patatas | 6,50€</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/menu-infantil/huevos.png" alt="Huevos con Patatas" class="dish-img">
+                </div>
+
+                <!-- Bacon Huevos con Patatas -->
+                <div class="dish-item">
+                    <div class="dish-text2">
+                        <h4>Bacon Huevos con Patatas</h4>
+                        <ul>
+                            <li><span class="dish-name">Nº 16:</span> Bacon huevos con patatas | 7,25€</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/menu-infantil/bacon.png" alt="Bacon Huevos con Patatas" class="dish-img">
+                </div>
+
+                <!-- Pasta con Tomate y Salchichas -->
+                <div class="dish-item">
+                    <div class="dish-text2">
+                        <h4>Pasta con Tomate y Salchichas</h4>
+                        <ul>
+                            <li><span class="dish-name">Nº 17:</span> Pasta con tomate frito y salchichas | 7,25€</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/menu-infantil/pasta.png" alt="Pasta con Tomate y Salchichas" class="dish-img">
+                </div>
+
+                <!-- Arroz con Tomate, Huevos y Salchichas -->
+                <div class="dish-item">
+                    <div class="dish-text2">
+                        <h4>Arroz con Tomate, Huevos y Salchichas</h4>
+                        <ul>
+                            <li><span class="dish-name">Nº 18:</span> Arroz con tomate, huevos y salchichas | 7,25€</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/menu-infantil/arroz.png" alt="Arroz con Tomate, Huevos y Salchichas" class="dish-img">
+                </div>
+
+                <!-- Filete Pollo Plancha con Ensalada -->
+                <div class="dish-item">
+                    <div class="dish-text2">
+                        <h4>Filete Pollo Plancha con Ensalada</h4>
+                        <ul>
+                            <li><span class="dish-name">Nº 19:</span> Filete pollo plancha con ensalada | 9,00€</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/menu-infantil/ensalada.png" alt="Filete Pollo Plancha con Ensalada" class="dish-img">
+                </div>
+
+                <!-- Filete Pollo Plancha con Arroz -->
+                <div class="dish-item">
+                    <div class="dish-text2">
+                        <h4>Filete Pollo Plancha con Arroz</h4>
+                        <ul>
+                            <li><span class="dish-name">Nº 20:</span> Filete pollo plancha con arroz | 9,00€</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/menu-infantil/plancha.png" alt="Filete Pollo Plancha con Arroz" class="dish-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+  </section>
+  
+  <!-- Section 3 -->
+  <section id="section3" class="section3">
+    <div class="container">
+      <div class="row">
+        <!-- Columna Izquierda -->
+        <div class="col-md-6">
+          <h2 class="section-title">Horario de Atención</h2>
+          <h3 class="section-title1">Verano</h3>
+          <p class="section-hours">Martes a Viernes: 20:00 PM - 00:00 PM</p>
+          <p class="section-hours">Sábado y Domingo: 13:00 PM - 17:00 PM<br>20:00 PM - 00:00 PM</p>
+          <h3 class="section-title1">Invierno</h3>
+          <p class="section-hours">Viernes: 20:00 PM - 00:00 PM</p>
+          <p class="section-hours">Sábado y Domingo: 13:00 PM - 17:00 PM<br>19:30 PM - 23:30 PM</p>
+          <a href="assets/documents/Alergenos 2023.pdf" class="btn btn-primary" download>Tabla Alergenos</a>
+          <a href="assets/documents/Carta Comida Web 2023.pdf" class="btn btn-primary" download>Descarga la carta</a>
+        </div>
+
+        <!-- Columna Derecha -->
+        <div class="col-md-6 position-relative">
+          <div class="image-container">
+            <img src="assets/images/local11.jpg" alt="Primary Image" class="img-fluid primary-image">
+            <img src="assets/images/local12.jpg" alt="Secondary Image" class="img-fluid secondary-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-light py-4" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 mb-3">
+        <h4 class="footer-title">Burguer</h4>
+        <p>Saborea la auténtica experiencia de nuestras hamburguesas en un restaurante con tradición y calidad. Ven y disfruta de un menú exquisito en un ambiente acogedor que te hará sentir como en casa.</p>
+      </div>
+      <div class="col-md-3 mb-3">
+        <h4 class="footer-title">Links</h4>
+        <ul class="footer-links list-unstyled">
+          <li><a href="#section2" class="footer-link">Menú</a></li>
+          <li><a href="#section3" class="footer-link">Horario</a></li>
+          <li><a href="" target="_blank" class="footer-link">Cómo llegar</a></li>
+          <li><a href="#contact" class="footer-link">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 mb-3">
+        <h4 class="footer-title">Aviso Legal</h4>
+        <p><strong>NIF:</strong> 56456456456456</p>
+        <a href="" class="btn btn-secondary" download>Política</a>
+      </div>
+      <div class="col-md-3 mb-3">
+        <h4 class="footer-title">Contacto</h4>
+        <p><i class="fas fa-map-marker-alt"></i> Calle del Tres, 5, Madrid, 28400 Madrid</p>
+        <p><i class="fas fa-phone"></i> Reservas y Pedidos 91546499</p>
+        <p>&copy; 2024 Burguer . Website designed and developed by Daniel Soto. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
